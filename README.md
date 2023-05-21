@@ -11,7 +11,7 @@ Program name->: libftprintf.a
 
 External functs->: malloc, free, write, va_start, va_arg, va_copy, va_end.
 
-Here are the requirements:
+Here are the requirements->:
 • Don’t implement the buffer management of the original printf().
 
 • Your function has to handle the following conversions: cspdiuxX%
@@ -21,6 +21,7 @@ Here are the requirements:
 • You must use the command ar to create your library.
 
 You have to implement the following conversions->:
+
 • %c Prints a single character.
 
 • %s Prints a string (as defined by the common C convention).
